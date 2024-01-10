@@ -9,8 +9,8 @@ int main(void)
 
 	while (1)
 	{
-		display_prompt();
-		read_command(command, sizeof(command));
+		shell_prompt();
+		mread_command(command, sizeof(command));
 		execute_command(command);
 	}
 	return (0);

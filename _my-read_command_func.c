@@ -20,3 +20,4 @@ void mread_command(char *command, size_t size)
 	}
 	command[strcspn(command, "\n")] = '\0'; /* Remove newline */
 }
+}

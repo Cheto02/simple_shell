@@ -19,6 +19,7 @@ void print_out(const char *msg);
 void shell_prompt(void);
 void mread_command(char *command, size_t size);
 void myexecute_command(const char *command);
+void execute_command(const char *command);
 
 
 #endif /* SHELL_H */
