@@ -24,7 +24,11 @@
 void print_out(const char *msg);
 void shell_prompt(void);
 void mread_command(char *command, size_t size);
+<<<<<<< HEAD
 void executorto_command(const char *command);
+=======
+
+>>>>>>> aa4ac926a177c91cb1dded1e36afe8b5f72cd861
 
 
 #endif /* SHELL_H */
