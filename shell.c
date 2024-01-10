@@ -1,7 +1,7 @@
 #include "shell.h"
 /**
  *main - program entry point
- *Return:0 success 1 on failure
+ *Return:0 success
  */
 int main(void)
 {
@@ -11,7 +11,8 @@ int main(void)
 	{
 		shell_prompt();
 		mread_command(command, sizeof(command));
-		execute_command(command);
+		executorto_command("ls");
+
 	}
 	return (0);
 }

@@ -15,11 +15,16 @@
 #include <string.h>
 #include <stdbool.h>
 
+#define READ_BUF_SIZE 1024
+#define WRITE_BUF_SIZE 1024
+#define BUF_FLUSH -1
+
+
+
 void print_out(const char *msg);
 void shell_prompt(void);
 void mread_command(char *command, size_t size);
-void myexecute_command(const char *command);
-void execute_command(const char *command);
+void executorto_command(const char *command);
 
 
 #endif /* SHELL_H */
