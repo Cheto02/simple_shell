@@ -14,9 +14,9 @@ void executorto_command(const char *command)
 	}
 	else if (child_pid == 0)
 	{
-	execlp(command, command, (char *)NULL);
-	perror("execlp");
-	exit(EXIT_FAILURE);
+		execlp(command, command, (char *)NULL);
+		perror("execlp");
+		exit(EXIT_FAILURE);
 	}
 	else
 	{

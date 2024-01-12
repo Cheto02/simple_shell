@@ -11,7 +11,7 @@ int main(void)
 	{
 		shell_prompt();
 		mread_command(command, sizeof(command));
-		executorto_command("ls");
+		executorto_command(command);
 
 	}
 	return (0);

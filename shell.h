@@ -19,6 +19,10 @@
 #define WRITE_BUF_SIZE 1024
 #define BUF_FLUSH -1
 
+extern char **environ;
+
+
+
 void print_out(const char *msg);
 void shell_prompt(void);
 void mread_command(char *command, size_t size);
